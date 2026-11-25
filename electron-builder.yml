@@ -11,6 +11,7 @@ nsis:
   perMachine: false
   allowToChangeInstallationDirectory: true
 publish:
-  provider: generic
-  url: http://localhost:8080/
-  channel: latest
+  provider: github
+  owner: patrickleemsantos
+  repo: electron-poc
+  releaseType: release

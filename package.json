@@ -9,6 +9,7 @@
     "build": "electron-vite build",
     "preview": "electron-vite preview",
     "dist:win": "npm run build && electron-builder --win",
+    "publish:win": "npm run build && electron-builder --win --publish always",
     "serve:updates": "node scripts/serve-updates.mjs"
   },
   "dependencies": {
