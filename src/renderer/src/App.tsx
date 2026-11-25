@@ -55,7 +55,7 @@ function App(): JSX.Element {
 
   return (
     <div style={{ fontFamily: 'sans-serif', padding: 24, maxWidth: 560 }}>
-      <h1>Electron POC</h1>
+      <h1>Electron POC 🚀 (updated!)</h1>
       <p>
         Current version: <strong>{version}</strong>
       </p>
