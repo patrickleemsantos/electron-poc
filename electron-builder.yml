@@ -1,0 +1,16 @@
+appId: com.poc.electronupdater
+productName: ElectronPoc
+directories:
+  output: release
+files:
+  - out/**/*
+win:
+  target: nsis
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+publish:
+  provider: generic
+  url: http://localhost:8080/
+  channel: latest
