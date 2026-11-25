@@ -82,7 +82,7 @@ function App(): JSX.Element {
       <header className="topbar">
         <div className="brand">
           <span className="brand-mark">P</span>
-          QuickServe POS
+          PointSoft
         </div>
         <button className="version-chip" onClick={() => window.updater.checkForUpdates()}>
           v{version} · check for updates
